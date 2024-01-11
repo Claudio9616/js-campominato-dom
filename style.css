@@ -1,0 +1,39 @@
+body{
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 2rem;
+    background-color: #044AA0;
+}
+header{
+    background-color: #AAC4E9;
+}
+img{
+    width: 300px;
+}
+.my-container{
+    margin: auto;
+    width: 50%;
+}
+#grid{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    margin-top: 40px;
+}
+#grid .cells{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.5rem;
+    background-color: brown;
+}
+.clicca{
+    opacity: 0;    
+}
+/* devi cambiare il toogle e mettere add */

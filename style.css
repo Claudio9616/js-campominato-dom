@@ -11,7 +11,7 @@ img{
 }
 .my-container{
     margin: auto;
-    width: 50%;
+    width: 38%;
 }
 #grid{
     width: 500px;
@@ -24,16 +24,18 @@ img{
 #grid .cells{
     width: calc(100% / 10);
     height: calc(100% / 10);
-    border: 1px solid black;
+    border: 1px solid brown;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     color: black;
     font-size: 1.5rem;
-    background-color: brown;
+    background-color: black;
 }
-.clicca{
+#grid .clicca{
     opacity: 0;    
 }
-/* devi cambiare il toogle e mettere add */
+#grid .bomba{
+    background-color: brown;
+}
